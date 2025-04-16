@@ -1,7 +1,0 @@
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
-
-resources:
-  - ./rgd/      # If the rdg is installed then only following apps are allowed to be installed.
-#  - ./nginx-app/
-#  - ./sandbox-app/
