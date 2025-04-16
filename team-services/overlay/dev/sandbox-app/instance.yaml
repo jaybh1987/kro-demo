@@ -1,9 +1,0 @@
-apiVersion: kro.run/v1alpha1
-kind: Application
-metadata:
-  name: my-application-instance-2
-spec:
-  name: my-awesome-app
-  image: nginx:1.14.2  # no patching is required just calling the object with different params.
-  ingress:
-    enabled: false

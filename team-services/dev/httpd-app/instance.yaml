@@ -1,0 +1,7 @@
+apiVersion: kro.run/v1alpha1
+kind: Application
+metadata:
+  name: httpd-app
+spec:
+  name: dev-httpd-app
+  replicas: 2
